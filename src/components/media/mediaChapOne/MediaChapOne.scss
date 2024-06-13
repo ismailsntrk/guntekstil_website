@@ -1,0 +1,30 @@
+.media-items{
+    width: 20%;
+    height: 50%;
+}
+#media-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#slide-cont{
+    width: 80%;
+ 
+
+}
+
+
+@media screen and (max-width: 600px) {
+    #media-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}

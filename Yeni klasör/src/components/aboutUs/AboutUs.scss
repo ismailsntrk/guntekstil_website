@@ -1,0 +1,297 @@
+#about-us {
+  width: 100%;
+  height: 150em;
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#about-title {
+  font-size: 5em;
+  font-family: "Great Vibes", cursive;
+margin-top: 2em;
+}
+
+#prod-cont-two-title {
+  margin-top: 2em;
+  font-size: 3em;
+  font-family: "Great Vibes", cursive;
+}
+#about-exp {
+  font-weight: 600;
+  width: 80%;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#quality {
+  width: 90%;
+  height: 45vh;
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 8em;
+  justify-content: space-around;
+  align-items: center;
+}
+#icons {
+  margin-bottom: 1em;
+}
+.qua-items {
+  width: 25%;
+  border: 2px solid gray;
+  border-radius: 2em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.qua-items:hover{
+  border: 2px solid rgb(91, 138, 63);
+  background-color: rgb(91, 138, 63);
+  color: white;
+  transition: 0.4s;
+
+}
+#about-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+.arge-img {
+  width: 50%;
+  height: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.arge-p {
+  width: 50%;
+}
+
+#arge-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.arge-item {
+  background-color: #f1f3f5;
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+height: 25em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#export {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 2em;
+}
+
+#prog-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  margin-top: 4em;
+  font-weight: bold;
+}
+#prog-item-one {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  height: 100%;
+  font-weight: bold;
+  background-color: red;
+}
+#prog-item-two {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: blueviolet;
+}
+#prog-item-three {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 10%;
+  height: 100%;
+  background-color: greenyellow;
+}
+
+@media screen and (max-width: 600px) {
+  #about-us {
+    width: 100%;
+    height: 200em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  #about-title {
+    font-size: 3em;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 1em;
+  }
+
+  #prod-cont-two-title {
+    margin-top: 2em;
+    font-size: 3em;
+    font-family: "Great Vibes", cursive;
+  }
+
+  #quality {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+  }
+  #icons {
+    margin-bottom: 1em;
+  }
+  .qua-items {
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.qua-items:hover{
+  border: 2px solid rgb(91, 138, 63);
+  background-color: rgb(91, 138, 63);
+  color: white;
+  transition: 0.4s;
+
+}
+  #about-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+  .arge-img {
+    width: 80%;
+  }
+  .arge-p {
+    width: 100%;
+  }
+
+  #arge-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .arge-item {
+    background-color: #e9ecef;
+    width: 100%;
+    text-align: center;
+    margin-top: 0ç4em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #export {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 2em;
+  }
+
+  #prog-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    margin-top: 4em;
+    font-weight: bold;
+  }
+  #prog-item-one {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    height: 100%;
+    font-weight: bold;
+    background-color: red;
+  }
+  #prog-item-two {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: blueviolet;
+  }
+  #prog-item-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 10%;
+    height: 100%;
+    background-color: greenyellow;
+  }
+}
