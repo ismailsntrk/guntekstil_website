@@ -14,7 +14,7 @@ const CustomGoogleMapWithMarker = () => {
   };
   
   return (
-    <LoadScript googleMapsApiKey="AIzaSyD75l2_BAXj7yaC7EwpGdrvJACErroNtSA">
+    <LoadScript googleMapsApiKey="">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
          { <Marker  position={center} />}
       </GoogleMap>
